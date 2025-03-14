@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="From digital workspace to modern infrastructure to multicloud to cybersecurity, we have you covered."/>
+    <title>Connection</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <style>
+        @keyframes slide {
+            0% {
+                transform: translateX(0);
+            }
+            50% {
+                transform: translateX(-20px);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+        .slide-animation {
+            animation: slide 2s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body class="font-sans antialiased bg-gray-100">
+    <!-- Navbar -->
+    <header>
+        <nav class="bg-white shadow-md">
+            <div class="container mx-auto px-4 py-2 flex justify-between items-center">
+                <div class="flex items-center">
+                    <img alt="Connection logo" class="h-10" src="https://www.connection.com/media/0cxfdsop/connection-we-solve-it-logo.png?b=8780" width="100"/>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a class="text-black font-semibold hover:text-blue-600 transition duration-300" href="#products" onclick="navigate(event, 'Product.html')">Products</a>
+                    <a class="text-black font-semibold hover:text-blue-600 transition duration-300" href="#solutions" onclick="navigate(event, 'Solutions.html')">Solutions & Services</a>
+                    <a class="text-black font-semibold hover:text-blue-600 transition duration-300" href="#deals" onclick="navigate(event, 'Deals.html')">Deals</a>
+                    <a class="text-black font-semibold hover:text-blue-600 transition duration-300" href="#blog" onclick="navigate(event, 'Blog.html')">Blog</a>
+                    <a class="text-black font-semibold hover:text-blue-600 transition duration-300" href="#industries" onclick="navigate(event, 'Industries.html')">Industries</a>
+                    <a class="text-black font-semibold hover:text-blue-600 transition duration-300" href="#resources" onclick="navigate(event, 'Resources.html')">Resources</a>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <div class="relative">
+                        <input class="border rounded-full py-2 px-4 pl-10 w-64 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="What are you looking for today?" type="text"/>
+                        <i class="fas fa-search absolute left-3 top-3 text-gray-500" aria-hidden="true"></i>
+                    </div>
+                    <i class="far fa-heart text-xl hover:text-red-500 transition duration-300" aria-label="Favorites" role="img"></i>
+                    <i class="far fa-user text-xl hover:text-blue-600 transition duration-300" aria-label="User  account" role="img"></i>
+                    <i class="fas fa-shopping-bag text-xl hover:text-blue-600 transition duration-300" aria-label="Shopping cart" role="img"></i>
+                </div>
+            </div>
+            <div class="bg-gray-100 text-center py-2 slide-animation">
+                <span class="text-sm font-semibold">
+                    Refer a friend to earn $50 off your next purchase of $1000+
+                    <i class="fas fa-users"></i>
+                </span>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Hero Section -->
+    <main>
+        <section class="relative flex items-center justify-center h-screen bg-blue-500">
+            <div class="absolute inset-0 bg-white opacity-80"></div>
+            <div class="absolute inset-0 flex flex-col justify-center items-center text-blue-800 text-center px-8 md:px-16 lg:px-32">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Change Happens. EXPERTISE WINS</h1>
+                <p class="text-lg md:text-xl mb-8">From digital workspace to modern infrastructure to multicloud to cybersecurity, we have you covered.</p>
+                <div class="flex space-x-4">
+                    <a href="Product.html" onclick="navigate(event, 'Product.html')">
+                        <button class="bg-white text-blue-500 font-semibold py-2 px-4 rounded-full shadow hover:bg-gray-200 transition duration-300">
+                            Shop Products
+                        </button>
+                    </a>
+                    <a href="Deals.html" onclick="navigate(event, 'Deals.html')">
+                        <button class="bg-blue-800 text-white font-semibold py-2 px-4 rounded-full shadow hover:bg-blue-700 transition duration-300">
+                            Deals
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Additional Content Section -->
+    <section class="container mx-auto p-4 mt-8">
+        <h2 class="text-3xl font-bold text-center mb-6">Our Services</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white shadow-md rounded-lg p-4">
+                <h3 class="text-xl font-semibold">Service 1</h3>
+                <p class="text-gray-600 mt-2">Description of service 1 goes here. Brief and informative.</p>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-4">
+                <h3 class="text-xl font-semibold">Service 2</h3>
+                <p class="text-gray-600 mt-2">Description of service 2 goes here. Brief and informative.</p>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-4">
+                <h3 class="text-xl font-semibold">Service 3</h3>
+                <p class="text-gray-600 mt-2">Description of service 3 goes here. Brief and informative.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center py-4 mt-8">
+        <p>&copy; 2023 Connection. All rights reserved.</p>
+        <div class="flex justify-center space-x-4 mt-2">
+            <a href="#" class="hover:text-blue-400">Privacy Policy</a>
+            <a href="#" class="hover:text-blue-400">Terms of Service</a>
+            <a href="#" class="hover:text-blue-400">Contact Us</a>
+        </div>
+        <div class="flex justify-center space-x-4 mt-4">
+            <a href="https://www.instagram.com" target="_blank" class="hover:text-blue-400">
+                <i class="fab fa-instagram fa-lg"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank" class="hover:text-blue-400">
+                <i class="fab fa-twitter fa-lg"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank" class="hover:text-blue-400">
+                <i class="fab fa-facebook fa-lg"></i>
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" class="hover:text-blue-400">
+                <i class="fab fa-linkedin fa-lg"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script>
+        function navigate(event, url) {
+            event.preventDefault(); // Prevent the default anchor click behavior
+            document.body.classList.add('fade-out'); // Add fade-out class
+            setTimeout(function() {
+                window.location.href = url; // Navigate to the new page after the fade-out
+            }, 500); // Match the timeout with the CSS transition duration
+        }
+    </script>
+</body>
+</html>

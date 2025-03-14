@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Shop Gymshark for the best in fitness apparel. Strong looks for stronger lifts."/>
+    <title>Connection - Deal of the Week</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <style>
+        @keyframes slide {
+            0% {
+                transform: translateX(0);
+            }
+            50% {
+                transform: translateX(-20px);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+        .slide-animation {
+            animation: slide 2s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body class="font-sans antialiased bg-gray-100">
+    <!-- Navbar -->
+    <header>
+        <nav class="bg-white shadow-md">
+            <div class="container mx-auto px-4 py-2 flex justify-between items-center">
+                <div class="flex items-center">
+                    <img alt="Connection logo" class="h-10" src="https://www.connection.com/media/0cxfdsop/connection-we-solve-it-logo.png?b=8780" width="100"/>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a class="text-black font-semibold hover:text-blue-600 transition duration-300" href="#products">Products</a>
+                    <a class="text-black font-semibold hover:text-blue-600 transition duration-300" href="#solutions">Solutions & Services</a>
+                    <a class="text-black font-semibold hover:text-blue-600 transition duration-300" href="#deals">Deals</a>
+                    <a class="text-black font-semibold hover:text-blue-600 transition duration-300" href="#blog">Blog</a>
+                    <a class="text-black font-semibold hover:text-blue-600 transition duration-300" href="#industries">Industries</a>
+                    <a class="text-black font-semibold hover:text-blue-600 transition duration-300" href="#resources">Resources</a>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <div class="relative">
+                        <input class="border rounded-full py-2 px-4 pl-10 w-64 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="What are you looking for today?" type="text"/>
+                        <i class="fas fa-search absolute left-3 top-3 text-gray-500" aria-hidden="true"></i>
+                    </div>
+                    <i class="far fa-heart text-xl hover:text-red-500 transition duration-300" aria-label="Favorites" role="img"></i>
+                    <i class="far fa-user text-xl hover:text-blue-600 transition duration-300" aria-label="User   account" role="img"></i>
+                    <i class="fas fa-shopping-bag text-xl hover:text-blue-600 transition duration-300" aria-label="Shopping cart" role="img"></i>
+                </div>
+            </div>
+            <div class="bg-gray-100 text-center py-2 slide-animation">
+                <span class="text-sm font-semibold">
+                    Refer a friend to earn $50 off your next purchase of $1000+
+                    <i class="fas fa-users"></i>
+                </span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Deal of the Week Section -->
+    <section class="bg-blue-900 text-white text-center py-8">
+        <h1 class="text-4xl font-bold transition-transform transform hover:scale-110">Deal of the Week</h1>
+        <p class="text-6xl font-bold mt-2 transition-transform transform hover:scale-110">Save 37%</p>
+    </section>
+
+    <div class="container mx-auto mt-8 px-4">
+        <div class="text-center text-gray-700 mb-4">
+            <p>
+                Item#: 7920002 // MFG Part#: 981-000014 // By:
+                <a class="text-blue-600 hover:underline" href="#">Logitech</a>
+            </p>
+        </div>
+        
+        <div class="flex flex-col md:flex-row items-start justify-between">
+            <!-- Product Image -->
+            <div class="md:w-1/2 text-center md:text-left">
+                <img alt="Logitech ClearChat Comfort USB Headset" class="mx-auto md:mx-0" height="500" src="https://service.pcconnection.com/images/inhouse/05898B66-A54F-4CE1-937D-F3A8EB050AC7.jpg?interpolation=lanczos-none&downsize=500%3a*" width="500"/>
+            </div>
+
+            <!-- Product Details -->
+            <div class="md:w-1/2 mt-4 md:mt-0 md:ml-8">
+                <h2 class="text-2xl font-bold text-gray-800">Logitech ClearChat Comfort USB Headset</h2>
+                <p class="mt-4 text-gray-600">Comfort and digital sound in a versatile headset.</p>
+                <button class="bg-green-500 text-white px-4 py-2 mt-2 rounded hover:bg-green-600 transition duration-300">
+                    Learn More
+                </button>
+            </div>
+
+            <!-- Ordering Information -->
+            <div class="bg-white shadow-md rounded p-4 w-full md:w-1/3 mt-8 md:mt-0 md:ml-8">
+                <h3 class="text-xl font-bold text-gray-800 mb-4">Ordering Information</h3>
+                <div class="flex justify-between text-gray-700 mb-2">
+                    <span>Original Price:</span>
+                    <span>$39.95</span>
+                </div>
+                <div class="flex justify-between text-red-600 mb-2">
+                    <span>Discount:</span>
+                    <span>$14.96</span>
+                </div>
+                <div class="flex justify-between text-green-600 text-xl font-bold mb-4">
+                    <span>Your Price:</span>
+                    <span>$24.99</span>
+                </div>
+                <div class="flex items-center mb-4">
+                    <label class="mr-2" for="quantity">Qty:</label>
+                    <input class="border rounded w-16 text-center" id="quantity" name="quantity" type="number" value="1"/>
+                </div>
+                <button class="bg-blue-600 text-white px-4 py-2 rounded w-full hover:bg-blue-700 transition duration-300">
+                    Add To Cart
+                </button>
+                <div class="text-center mt-2">
+                    <a class="text-blue-600 text-sm hover:underline" href="#">
+                        <i class="fas fa-plus"></i> Add to Quicklist
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

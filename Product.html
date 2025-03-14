@@ -1,0 +1,161 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Shop Gymshark for the best in fitness apparel. Strong looks for stronger lifts."/>
+    <title>Connection</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <style>
+        @keyframes slide {
+            0% {
+                transform: translateX(0);
+            }
+            50% {
+                transform: translateX(-20px);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+        .slide-animation {
+            animation: slide 2s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body class="font-sans antialiased">
+    <!-- Navbar -->
+    <header>
+        <nav class="bg-white shadow-md">
+            <div class="container mx-auto px-4 py-2 flex justify-between items-center">
+                <div class="flex items-center">
+                    <img alt="Connection logo" class="h-10" src="https://www.connection.com/media/0cxfdsop/connection-we-solve-it-logo.png?b=8780" width="100"/>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a class="text-black font-semibold hover:text-blue-600 transition duration-300" href="#products">Products</a>
+                    <a class="text-black font-semibold hover:text-blue-600 transition duration-300" href="#solutions">Solutions & Services</a>
+                    <a class="text-black font-semibold hover:text-blue-600 transition duration-300" href="#deals">Deals</a>
+                    <a class="text-black font-semibold hover:text-blue-600 transition duration-300" href="#blog">Blog</a>
+                    <a class="text-black font-semibold hover:text-blue-600 transition duration-300" href="#industries">Industries</a>
+                    <a class="text-black font-semibold hover:text-blue-600 transition duration-300" href="#resources">Resources</a>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <div class="relative">
+                        <input class="border rounded-full py-2 px-4 pl-10 w-64 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="What are you looking for today?" type="text"/>
+                        <i class="fas fa-search absolute left-3 top-3 text-gray-500" aria-hidden="true"></i>
+                    </div>
+                    <i class="far fa-heart text-xl hover:text-red-500 transition duration-300" aria-label="Favorites" role="img"></i>
+                    <i class="far fa-user text-xl hover:text-blue-600 transition duration-300" aria-label="User   account" role="img"></i>
+                    <i class="fas fa-shopping-bag text-xl hover:text-blue-600 transition duration-300" aria-label="Shopping cart" role="img"></i>
+                </div>
+            </div>
+            <div class="bg-gray-100 text-center py-2 slide-animation">
+                <span class="text-sm font-semibold">
+                    Refer a friend to earn $50 off your next purchase of $1000+
+                    <i class="fas fa-users"></i>
+                </span>
+            </div>
+        </nav>
+    </header>
+    <!-- Featured Products Section -->
+    <div class="mb-8">
+        <h2 class="text-2xl font-bold text-gray-700">FEATURED PRODUCTS</h2>
+        <div class="flex space-x-4 mt-2">
+            <a class="text-gray-700 font-semibold" href="#">TOP PICKS</a>
+            <a class="text-gray-500" href="#">PRINTERS</a>
+            <a class="text-gray-500" href="#">LAPTOPS</a>
+            <a class="text-gray-500" href="#">TABLETS</a>
+            <a class="text-gray-500" href="#">MONITORS</a>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mt-4">
+            <div class="bg-white p-4 border rounded transition-transform transform hover:scale-105 hover:shadow-lg">
+                <img alt="13' Surface Pro 10" class="mx-auto mb-2" height="150" src="https://storage.googleapis.com/a1aa/image/tZVN26kVYCyEBa5lxdwdSpA2O56W81xWCqQEN1EKu08.jpg" width="150"/>
+                <p class="text-center text-gray-700">13" Surface Pro 10</p>
+                <p class="text-center text-blue-600 text-xl font-bold">$1,512.63</p>
+            </div>
+            <div class="bg-white p-4 border rounded transition-transform transform hover:scale-105 hover:shadow-lg">
+                <img alt="Belkin Thunderbolt 4 Dock" class="mx-auto mb-2" height="150" src="https://storage.googleapis.com/a1aa/image/4H9SYknnj_e-GGa2dpJGNBhIdM4b2cOJ5Zg1u7vrO_c.jpg" width="150"/>
+                <p class="text-center text-gray-700">Belkin Thunderbolt 4 Dock</p>
+                <p class="text-center text-gray-500 line-through">$352.99</p>
+                <p class="text-center text-blue-600 text-xl font-bold">$249.99</p>
+            </div>
+            <div class="bg-white p-4 border rounded transition-transform transform hover:scale-105 hover:shadow-lg">
+                <img alt="16' Lenovo ThinkPad P16s" class="mx-auto mb-2" height="150" src="https://storage.googleapis.com/a1aa/image/tTZrHQUZzW1rzVFjiliqR1MXSxoWeNVvrbHWqJbLTwk.jpg" width="150"/>
+                <p class="text-center text-gray-700">16" Lenovo ThinkPad P16s</p>
+                <p class="text-center text-blue-600 text-xl font-bold">$2,005.95</p>
+            </div>
+            <div class="bg-white p-4 border rounded transition-transform transform hover:scale-105 hover:shadow-lg">
+                <img alt="HP EliteBook 860 G11" class="mx-auto mb-2" height="150" src="https://storage.googleapis.com/a1aa/image/KmNVNW8HjMa5V1OuTJTXMsIbIwtvJd0AhmMk6jjGEV0.jpg" width="150"/>
+                <p class="text-center text-gray-700">HP EliteBook 860 G11</p>
+                <p class="text-center text-blue-600 text-xl font-bold">$1,924.16</p>
+            </div>
+            <div class="bg-white p-4 border rounded transition-transform transform hover:scale-105 hover:shadow-lg">
+                <img alt="HP ZBook Power G10 AMD" class="mx-auto mb-2" height="150" src="https://storage.googleapis.com/a1aa/image/0KCaUpyAOf5jij0GT9vobULU_tkIj0Cosv4XYIpJzV4.jpg" width="150"/>
+                <p class="text-center text-gray-700">HP ZBook Power G10 AMD</p>
+                <p class="text-center text-gray-500 line-through">$1,599.00</p>
+                <p class="text-center text-blue-600 text-xl font-bold">$1,088.99</p>
+            </div>
+            <div class="bg-white p-4 border rounded transition-transform transform hover:scale-105 hover:shadow-lg">
+                <img alt="Lenovo ThinkCentre M75q Gen2 Tiny" class="mx-auto mb-2" height="150" src="https://storage.googleapis.com/a1aa/image/rg35jSDozyryQB_IfUMEa-5jnjuJhn5_XTUUYryFcC0.jpg" width="150"/>
+                <p class="text-center text-gray-700">Lenovo ThinkCentre M75q Gen2 Tiny</p>
+                <p class="text-center text-blue-600 text-xl font-bold">$777.09</p>
+            </div>
+        </div>
+    </div>
+    <!-- Featured Categories Section -->
+    <div>
+        <h2 class="text-2xl font-bold text-gray-700">FEATURED CATEGORIES</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mt-4">
+            <div class="bg-white p-4 border rounded transition-transform transform hover:scale-105 hover:shadow-lg">
+                <img alt="Computer Parts" class="mx-auto mb-2" height="150" src="https://storage.googleapis.com/a1aa/image/EXybK-HiCfr-oHLpxd_s-0DJPpYUdFkBLhgev2QitFA.jpg" width="150"/>
+                <p class="text-center text-gray-700 font-semibold">COMPUTER PARTS</p>
+                <p class="text-center text-blue-600"><a href="#">Axiom Parts</a></p>
+                <p class="text-center text-blue-600"><a href="#">HPE Parts</a></p>
+                <p class="text-center text-blue-600"><a href="#">Intel Parts</a></p>
+            </div>
+            <div class="bg-white p-4 border rounded transition-transform transform hover:scale-105 hover:shadow-lg">
+                <img alt="Laptops" class="mx-auto mb-2" height="150" src="https://storage.googleapis.com/a1aa/image/T7GN57AGet4kOeUHVme8Yo60ktzMsXWVfWjo7wDwhSM.jpg" width="150"/>
+                <p class="text-center text-gray-700 font-semibold">LAPTOPS</p>
+                <p class="text-center text-blue-600"><a href="#">Acer Laptops</a></p>
+                <p class="text-center text-blue-600"><a href="#">HP Laptops</a></p>
+                <p class="text-center text-blue-600"><a href="#">Lenovo Laptops</a></p>
+            </div>
+            <div class="bg-white p-4 border rounded transition-transform transform hover:scale-105 hover:shadow-lg">
+                <img alt="Desktops" class="mx-auto mb-2" height="150" src="https://storage.googleapis.com/a1aa/image/GJfcmXvEzJPn44-2KN3U4VeKsWyEaJ5YYIZx-lOpr2g.jpg" width="150"/>
+                <p class="text-center text-gray-700 font-semibold">DESKTOPS</p>
+                <p class="text-center text-blue-600"><a href="#">Dell Desktops</a></p>
+                <p class="text-center text-blue-600"><a href="#">HP Desktops</a></p>
+                <p class="text-center text-blue-600"><a href="#">Lenovo Desktops</a></p>
+            </div>
+            <div class="bg-white p-4 border rounded transition-transform transform hover:scale-105 hover:shadow-lg">
+                <img alt="Monitors" class="mx-auto mb-2" height="150" src="https://storage.googleapis.com/a1aa/image/nN-EFXwfPc_L0DDpUoT6Mvg71yJc8Jtu-0j14jRLBv8.jpg" width="150"/>
+                <p class="text-center text-gray-700 font-semibold">MONITORS</p>
+                <p class="text-center text-blue-600"><a href="#">LG Monitors</a></p>
+                <p class="text-center text-blue-600"><a href="#">Samsung Monitors</a></p>
+                <p class="text-center text-blue-600"><a href="#">ViewSonic Monitors</a></p>
+            </div>
+            <div class="bg-white p-4 border rounded transition-transform transform hover:scale-105 hover:shadow-lg">
+                <img alt="Software" class="mx-auto mb-2" height="150" src="https://storage.googleapis.com/a1aa/image/qNmcX6qhpKl6-7A-l1gxrSzmtAGGrS_ReS6Nd2u78TU.jpg" width="150"/>
+                <p class="text-center text-gray-700 font-semibold">SOFTWARE</p>
+                <p class="text-center text-blue-600"><a href="#">Adobe Software</a></p>
+                <p class="text-center text-blue-600"><a href="#">Microsoft Software</a></p>
+                <p class="text-center text-blue-600"><a href="#">Symantec Software</a></p>
+            </div>
+            <div class="bg-white p-4 border rounded transition-transform transform hover:scale-105 hover:shadow-lg">
+                <img alt="Laser Printers" class="mx-auto mb-2" height="150" src="https://storage.googleapis.com/a1aa/image/Gim07VaSpqw20oGu7eP2R9HnLJ-1mej74hPXw0p3OyM.jpg" width="150"/>
+                <p class="text-center text-gray-700 font-semibold">LASER PRINTERS</p>
+                <p class="text-center text-blue-600"><a href="#">HP Printers</a></p>
+                <p class="text-center text-blue-600"><a href="#">Lexmark Printers</a></p>
+                <p class="text-center text-blue-600"><a href="#">Xerox Printers</a></p>
+            </div>
+            <div class="bg-white p-4 border rounded transition-transform transform hover:scale-105 hover:shadow-lg">
+                <img alt="Tablets" class="mx-auto mb-2" height="150" src="https://storage.googleapis.com/a1aa/image/UwZYPovA_5tEHMx1Xf8IVXjYR63NJcsoKX8-fX07sGc.jpg" width="150"/>
+                <p class="text-center text-gray-700 font-semibold">TABLETS</p>
+                <p class="text-center text-blue-600"><a href="#">Apple iPad</a></p>
+                <p class="text-center text-blue-600"><a href="#">Microsoft Tablets</a></p>
+                <p class="text-center text-blue-600"><a href="#">Samsung Tablets</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
